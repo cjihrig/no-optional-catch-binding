@@ -1,0 +1,33 @@
+{
+  "name": "no-optional-catch-binding",
+  "version": "1.0.0",
+  "description": "ESLint rule to flag catch clauses with no error variable binding",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/no-optional-catch-binding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/no-optional-catch-binding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/no-optional-catch-binding/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.1",
+    "eslint": "4.16.0"
+  },
+  "keywords": [
+    "eslint",
+    "rule",
+    "lint",
+    "linting",
+    "catch"
+  ]
+}
